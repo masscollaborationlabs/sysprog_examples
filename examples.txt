@@ -1,0 +1,41 @@
+[19:10, 02.02.2025] Chatgpt: 1. Bellek Yönetimi Uygulaması:
+   - Soru: Bellek tahsisi ve serbest bırakılması işlemlerini simüle eden bir program yazın. Bu program, statik ve dinamik bellek tahsisini (malloc ve free) yönetmeli ve belleği ne zaman serbest bırakacağını doğru bir şekilde takip etmelidir. Ayrıca bellek sızıntılarını tespit etmek için bir mekanizma ekleyin.
+
+2. Dosya Sistemi Uygulaması:
+   - Soru: Basit bir dosya sistemi oluşturun. Kullanıcı, dosyalar ekleyebilmeli, silebilmeli ve üzerinde işlem yapabilmeli (okuma, yazma). Dosya sistemini gerçekleştirmek için önceden var olan sistem çağrılarını (open, read, write, close, unlink) kullanabilir veya sıfırdan yapabilirsiniz.
+
+3. Çoklu İşlem (Multithreading) Uygulaması:
+   - Soru: Birden fazla iş parçacığı (thread) kullanarak bir program yazın. Örneğin, bir işlemci kaynağını paylaşan iki iş parçacığı yazın. Her iki iş parçacığı da bir sayının faktöriyelini hesaplasın, ancak bunlar birbirleriyle veri paylaşacaklardır. Bunun yanı sıra, doğru bir şekilde senkronizasyon ve race condition'ları engellemek için mutex veya semaforlar kullanın.
+
+4. Sinyal İşleme Uygulaması:
+[19:10, 02.02.2025] Chatgpt: - Soru: Linux sisteminde sinyalleri kullanarak bir sinyal işleme uygulaması yazın. Örneğin, SIGINT (Ctrl+C) sinyalini yakalayarak kullanıcıya "Program sonlandırıldı" mesajı verin. Ayrıca, farklı sinyalleri yakalamak ve işlem üzerinde nasıl etkiler yarattığını görmek için ek özellikler ekleyin.
+
+5. Sistem Çağrılarını Anlama:
+   - Soru: Bir sistem çağrısını (örneğin fork(), exec(), wait()) kendi başınıza simüle eden bir uygulama geliştirin. Bu, size işlemlerle ilgili daha derin bir anlayış kazandırabilir ve düşük seviyedeki işlemlerle ilgili bilginizi geliştirebilir.
+
+6. İşlem Zamanlama Simülasyonu:
+   - Soru: Basit bir zamanlayıcı (scheduler) programı yazın. Farklı işlem planlama algoritmalarını (FIFO, Round Robin, SJF vs.) simüle edin. İşlem sıralaması ve önceliklendirme uygulamalarını test edin. Programınızda her işlem için CPU zamanı, bekleme süresi ve dönüş süresi hesaplayabilmeli.
+
+7. IPC (Inter-Process Communication) Uygulaması:
+   - Soru: İşlemler arası iletişim için bir çözüm geliştirin. Örneğin, bir işlem veriyi başka bir işleme pipes veya shared memory kullanarak iletsin. Uygulamanızda işlemler arasında veri paylaşımını düzgün bir şekilde sağlayabilmek için synchronization tekniklerini kullanın.
+
+8. İşlem ve Bellek İzleme Programı:
+[19:10, 02.02.2025] Chatgpt: - Soru: Bir sistemde çalışan tüm işlemleri izleyen ve bu işlemlerin bellek kullanımını raporlayan bir araç geliştirin. Kullanıcıdan belirli bir işlem ID'sini alarak, bu işlem hakkında bellek kullanımını ve kaynak tüketimini gösterecek bir rapor oluşturun.
+
+9. Kendi Shell (Kabuk) Programınızı Yazın:
+   - Soru: Linux veya Unix tabanlı bir sistemde çalışan, kullanıcıdan komut alıp çalışan bir kabuk (shell) uygulaması geliştirin. Bu shell, sistem komutlarını (ls, ps, cd, vs.) çalıştırmakla birlikte, komutları arka planda çalıştırabilmeli ve kullanıcıya çıktılarını göstermelidir.
+
+10. Zamanlayıcı (Timer) Uygulaması:
+   - Soru: Sistem saatiyle uyumlu bir zamanlayıcı programı yazın. Bu program belirli bir zaman diliminde belirli bir işlevi gerçekleştirmeli ve zaman dilim…
+[19:10, 02.02.2025] Chatgpt: - Soru: TCP/IP bağlantısını kullanarak basit bir sunucu ve istemci uygulaması yazın. Sunucu, istemciden gelen veriyi kabul etmeli ve geri göndermelidir. Bu uygulamayı geliştirerek bir chat uygulamasına dönüştürebilirsiniz.
+
+13. Disk I/O Performans Testi:
+   - Soru: Disk I/O performansını test eden bir uygulama geliştirin. Uygulamanız, veriyi diske yazacak ve diskten okuyacak. Yazma ve okuma hızlarını ölçün ve çıktıları raporlayın. Verilerin disk üzerinde nasıl yer aldığını inceleyin.
+
+14. Karmaşık Veri Yapıları Uygulaması:
+   - Soru: Sistemde kullanılacak karmaşık veri yapıları (örneğin, AVL ağaçları, hash tabloları) ile ilgili bir uygulama yazın. Bu veri yapılarının bellek yönetimini ve performansını nasıl optimize edebileceğinizi keşfedin.
+
+15. Basit Bir Dosya Şifreleme Uygulaması:
+   - Soru: Dosya şifreleme ve şifre çözme işlevi yazan bir uygulama geliştirin. AES gibi bir şifreleme algoritmasını kullanarak, dosyanın içeriğini şifreleyin ve sonra doğru anahtarla çözün. Ayrıca şifreleme sırasında dosya boyutunun nasıl değiştiğini izleyin.
+
+---
