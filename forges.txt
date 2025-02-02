@@ -1,0 +1,13 @@
+Depolarımızın adresleri
+
+https://codeberg.org/masscollaborationlabs/sysprog_examples
+
+https://git.disroot.org/masscollaborationlabs/sysprog_examples
+
+https://git.vern.cc/masscollaborationlabs/sysprog_examples
+
+https://git.sr.ht/~mertgor/sysprog_examples
+
+https://gitlab.com/masscollabs/masscollaborationlabs/sysprog_examples#
+
+https://github.com/masscollaborationlabs/sysprog_examples
